@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from '@mui/material';
 import Typography from '@mui/material/Typography';
-import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+import { AccessAlarm } from '@mui/icons-material';
 
 function App() {
   return (
