@@ -9,7 +9,7 @@ export default function ActionAreaCard(props) {
 	let title = "Titolo Mancante";
 	let text = "Sei un dugo";
 	return (
-		<Card>
+		<Card sx={{ mt: 1 }}>
 			<CardActionArea>
 				<CardMedia
 					component="img"
@@ -19,10 +19,10 @@ export default function ActionAreaCard(props) {
 				/>
 				<CardContent>
 					<Typography gutterBottom variant="h5" component="div">
-						{props.title?props.title:title}
+						{props.title ? props.title : title}
 					</Typography>
 					<Typography variant="body2" color="text.secondary">
-						{props.text?props.text:text}
+						{props.text ? props.text : text}
 					</Typography>
 				</CardContent>
 			</CardActionArea>
