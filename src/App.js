@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <Card 
         image="http://images6.fanpop.com/image/photos/35200000/Dog-dogs-35247719-3706-2480.jpg"
-        title="Regione Sburata"
+        title="sas"
         text="TUO PADRE"/>
       <Card 
         image="http://3.bp.blogspot.com/_LDF9z4ZzZHo/TQALfYxDv8I/AAAAAAAAAKE/bSd9BAPyyfU/s1600/1600DOG_13018.jpg"
