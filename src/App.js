@@ -1,66 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import { Button } from '@mui/material';
-import Typography from '@mui/material/Typography';
-import { AccessAlarm } from '@mui/icons-material';
+import Card from './mycard';
+import Navbar from './mybar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button startIcon={<AccessAlarm />} variant='contained' color='success' size='large'>
-          Hello
-        </Button>
-        <img src={logo} className="App-logo" alt="logo" />
-        <Typography variant="h1" component="div" gutterBottom>
-          h1. Heading
-        </Typography>
-        <Typography variant="h2" gutterBottom component="div">
-          h2. Heading
-        </Typography>
-        <Typography variant="h3" gutterBottom component="div">
-          h3. Heading
-        </Typography>
-        <Typography variant="h4" gutterBottom component="div">
-          h4. Heading
-        </Typography>
-        <Typography variant="h5" gutterBottom component="div">
-          h5. Heading
-        </Typography>
-        <Typography variant="h6" gutterBottom component="div">
-          h6. Heading
-        </Typography>
-        <Typography variant="subtitle1" gutterBottom component="div">
-          subtitle1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          blanditiis tenetur
-        </Typography>
-        <Typography variant="subtitle2" gutterBottom component="div">
-          subtitle2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          blanditiis tenetur
-        </Typography>
-        <Typography variant="body1" gutterBottom>
-          body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-          neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-          quasi quidem quibusdam.
-        </Typography>
-        <Typography variant="body2" gutterBottom>
-          body2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur,
-          neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum
-          quasi quidem quibusdam.
-        </Typography>
-        <Typography variant="button" display="block" gutterBottom>
-          button text
-        </Typography>
-        <Typography variant="caption" display="block" gutterBottom>
-          caption text
-        </Typography>
-        <Typography variant="overline" display="block" gutterBottom>
-          overline text
-        </Typography>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Card 
+        image="http://images6.fanpop.com/image/photos/35200000/Dog-dogs-35247719-3706-2480.jpg"
+        title="Regione Sburata"
+        text="TUO PADRE"/>
+      <Card 
+        image="http://3.bp.blogspot.com/_LDF9z4ZzZHo/TQALfYxDv8I/AAAAAAAAAKE/bSd9BAPyyfU/s1600/1600DOG_13018.jpg"
+        text="Maïonęysē"
+        title="Maïonęysē"/>
+      <Card image="http://images6.fanpop.com/image/photos/32500000/Dog-dogs-32509010-3888-2592.jpg"/>
+      <Card image="http://images6.fanpop.com/image/photos/35200000/Dog-dogs-35247719-3706-2480.jpg"/>
+    </>
   );
 }
 
